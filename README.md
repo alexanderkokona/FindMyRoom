@@ -1,19 +1,23 @@
-# FindMyRoom
-A simple text-based instruction web app that will support students in finding rooms on campus. This project has a very specific, narrow scope to allow the team to complete the project.
+FindMyRoom
+Project Title
 
-# Project Title
 Find My Room
 
-## Team Members
+Team Members
+
 Alexander Kokona
+
 Thomas Gruber
+
 Kim Josell
+
 Lucas Smith
 
-## Software Description
+Software Description
+
 A simple web application that maps out text-based directions for students to find any room on campus. The beginning of this project will be restricted to a more manageable scope of just the STC building and just finding the fastest route before we add the warmest route and text-based directions before UX map directions.
 
-## Architecture
+Architecture
 +---------------------------+
 |        Web / PWA          |
 |---------------------------|
@@ -27,7 +31,7 @@ A simple web application that maps out text-based directions for students to fin
               v
 +---------------------------+
 |        Backend API        |
-|      (FastAPI / Python)  |
+|      (FastAPI / Python)   |
 |---------------------------|
 |  - Authentication (JWT)   |
 |  - Schedule CRUD          |
@@ -38,7 +42,7 @@ A simple web application that maps out text-based directions for students to fin
               v
 +---------------------------+
 |     Routing Engine        |
-|   (Dijkstra Algorithm)   |
+|   (Dijkstra Algorithm)    |
 |---------------------------|
 |  - Loads Building Graph   |
 |  - Computes Fastest Path  |
@@ -51,60 +55,100 @@ A simple web application that maps out text-based directions for students to fin
 |   (JSON / GeoJSON File)   |
 |---------------------------|
 |  - Nodes (rooms, halls)   |
-|  - Edges (distance, text)|
+|  - Edges (distance, text) |
 +---------------------------+
 
-## Data Flow
+Programming Languages / Frameworks / Tools
+
+Programming Languages
+
+JavaScript (Frontend)
+
+Python (Backend)
+
+Frameworks
+
+React (Frontend)
+
+FastAPI (Backend)
+
+Data Storage
+
+JSON / GeoJSON files (routing graph)
+
+SQLite or Firebase (future expansion)
+
+Development Tools
+
+Visual Studio Code
+
+GitHub (required)
+
+Postman (API testing)
+
+Data Flow
+
 User selects room
-        ↓
+
 Frontend sends request
-        ↓
+
 Backend validates user
-        ↓
+
 Routing engine finds path
-        ↓
+
 Instruction list returned
-        ↓
+
 Frontend displays steps
 
+Software Features
 
-## Software Features
+ Text-based directions to quadrants of rooms
 
-* [ ] Text-based directions to quadrants of rooms
-* [ ] Still image mapping to each quadrant
-* [ ] 
+ Still image mapping to each quadrant
 
-## Team Communication
+ Warmest route option (Sprint 2)
+
+ Text-based directions with landmarks (Sprint 2)
+
+Team Communication
+
 Group Chat and Discord
 
-## Team Responsibility
+Team Responsibilities
 
 Backend Lead: Thomas Gruber
+
 Auth + schedule endpoints
+
 Routing engine integration
 
 Frontend Lead: Kim Josell
+
 Login, schedule input, room selection UI
+
 Instruction display component
 
 Data / Graph Lead: Lucas Smith
+
 Nodes and edges data entry
+
 Instruction text writing
 
 QA / Integration Lead: Alexander Kokona
+
 Testing all routes
+
 Connecting frontend and backend
+
 Final demo prep
 
 Everyone contributes to documentation and testing.
 
-|Responsibility                      |Team Member(s)              |
-|------------------------------------|----------------------------|
-|Conducting Meetings                 |                            |
-|Maintaining Team Assignment List    |                            |
-|Ensuring GitHub is Working          |Alexander Kokona|
-|Maintaining Documentation           |                            |
-|Create & Display Presentations      |                            |
-|Submit Team Assignments             |                            |
-
-## Reflections
+Responsibility	Team Member(s)
+Conducting Meetings	Thomas Gruber
+Maintaining Team Assignment List	Kim Josell
+Ensuring GitHub is Working	Alexander Kokona
+Maintaining Documentation	Lucas Smith
+Create & Display Presentations	Alexander Kokona
+Submit Team Assignments	Alexander Kokona
+Reflections
