@@ -41,8 +41,20 @@
 
   "edges": [
     {
-      "from": "",
-      "to": "",
+      "from": "N_QUAD_1",
+      "to": "N_HALL_2",
+      "distance": 8,
+      "instruction": "Walk straight until the cortner"
+    },
+    {
+      "from": "N_QUAD_1",
+      "to": "N_QUAD_3",
+      "distance": 4,
+      "instruction": "Walk to get in front of the elevator"
+    },
+    {
+      "from": "N_HALL_2",
+      "to": "N_QUAD_2",
       "distance": 0,
       "instruction": ""
     }
