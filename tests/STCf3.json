@@ -57,34 +57,34 @@
       "to": "N_QUAD_2",
       "distance": 0,
       "instruction": ""
-    }
-    // west
+    },
+    
     { "from": "ENT_WEST", "to": "W_HALL_1", "distance": 5, "instruction": "Enter through West Entrance and walk straight into the hallway" },
-{ "from": "W_HALL_1", "to": "W_HALL_2", "distance": 6, "instruction": "Continue straight down the west hallway" },
-{ "from": "W_HALL_2", "to": "W_HALL_3", "distance": 5, "instruction": "Walk forward past the corner" },
-{ "from": "W_HALL_3", "to": "W_HALL_4", "distance": 5, "instruction": "Continue straight" },
-{ "from": "W_HALL_4", "to": "W_HALL_5", "distance": 6, "instruction": "Walk straight down the corridor" },
-{ "from": "W_HALL_5", "to": "W_HALL_6", "distance": 6, "instruction": "Continue forward" },
-{ "from": "W_HALL_6", "to": "W_HALL_7", "distance": 5, "instruction": "Keep walking straight" },
-{ "from": "W_HALL_7", "to": "W_HALL_8", "distance": 6, "instruction": "Continue to the end of the west hallway" }
-    // east
+    { "from": "W_HALL_1", "to": "W_HALL_2", "distance": 6, "instruction": "Continue straight down the west hallway" },
+    { "from": "W_HALL_2", "to": "W_HALL_3", "distance": 5, "instruction": "Walk forward past the corner" },
+    { "from": "W_HALL_3", "to": "W_HALL_4", "distance": 5, "instruction": "Continue straight" },
+    { "from": "W_HALL_4", "to": "W_HALL_5", "distance": 6, "instruction": "Walk straight down the corridor" },
+    { "from": "W_HALL_5", "to": "W_HALL_6", "distance": 6, "instruction": "Continue forward" },
+    { "from": "W_HALL_6", "to": "W_HALL_7", "distance": 5, "instruction": "Keep walking straight" },
+    { "from": "W_HALL_7", "to": "W_HALL_8", "distance": 6, "instruction": "Continue to the end of the west hallway" },
+
     { "from": "ENT_EAST", "to": "E_HALL_1", "distance": 5, "instruction": "Enter through East Entrance and walk straight" },
-{ "from": "E_HALL_1", "to": "E_HALL_2", "distance": 5, "instruction": "Continue down the hallway" },
-{ "from": "E_HALL_2", "to": "E_HALL_3", "distance": 6, "instruction": "Walk straight past the rooms" },
-{ "from": "E_HALL_3", "to": "E_HALL_4", "distance": 5, "instruction": "Continue forward" },
-{ "from": "E_HALL_4", "to": "E_HALL_5", "distance": 5, "instruction": "Walk straight down the corridor" },
-{ "from": "E_HALL_5", "to": "E_HALL_6", "distance": 6, "instruction": "Continue straight" },
-{ "from": "E_HALL_6", "to": "E_HALL_7", "distance": 5, "instruction": "Walk forward" },
-{ "from": "E_HALL_7", "to": "E_HALL_8", "distance": 6, "instruction": "Continue to the end of the east hallway" }
-    // north hall
+    { "from": "E_HALL_1", "to": "E_HALL_2", "distance": 5, "instruction": "Continue down the hallway" },
+    { "from": "E_HALL_2", "to": "E_HALL_3", "distance": 6, "instruction": "Walk straight past the rooms" },
+    { "from": "E_HALL_3", "to": "E_HALL_4", "distance": 5, "instruction": "Continue forward" },
+    { "from": "E_HALL_4", "to": "E_HALL_5", "distance": 5, "instruction": "Walk straight down the corridor" },
+    { "from": "E_HALL_5", "to": "E_HALL_6", "distance": 6, "instruction": "Continue straight" },
+    { "from": "E_HALL_6", "to": "E_HALL_7", "distance": 5, "instruction": "Walk forward" },
+    { "from": "E_HALL_7", "to": "E_HALL_8", "distance": 6, "instruction": "Continue to the end of the east hallway" },
+
     { "from": "ENT_CENT", "to": "N_HALL_1", "distance": 4, "instruction": "Exit the central staircase and walk north" },
-{ "from": "N_HALL_1", "to": "N_HALL_2", "distance": 5, "instruction": "Walk straight past the bathrooms" },
-{ "from": "N_HALL_2", "to": "N_HALL_3", "distance": 5, "instruction": "Continue straight" },
-{ "from": "N_HALL_3", "to": "N_HALL_4", "distance": 6, "instruction": "Walk forward down the corridor" },
-{ "from": "N_HALL_4", "to": "N_HALL_5", "distance": 5, "instruction": "Continue straight" },
-{ "from": "N_HALL_5", "to": "N_HALL_6", "distance": 5, "instruction": "Walk to the end of the hallway" }
-  // north hall to north quad
+    { "from": "N_HALL_1", "to": "N_HALL_2", "distance": 5, "instruction": "Walk straight past the bathrooms" },
+    { "from": "N_HALL_2", "to": "N_HALL_3", "distance": 5, "instruction": "Continue straight" },
+    { "from": "N_HALL_3", "to": "N_HALL_4", "distance": 6, "instruction": "Walk forward down the corridor" },
+    { "from": "N_HALL_4", "to": "N_HALL_5", "distance": 5, "instruction": "Continue straight" },
+    { "from": "N_HALL_5", "to": "N_HALL_6", "distance": 5, "instruction": "Walk to the end of the hallway" },
+  
     { "from": "N_HALL_6", "to": "N_QUAD_1", "distance": 4, "instruction": "Turn into the North Quad study area" },
-{ "from": "N_QUAD_2", "to": "N_QUAD_3", "distance": 3, "instruction": "Walk across the quad toward rooms 396 and 398" }
+    { "from": "N_QUAD_2", "to": "N_QUAD_3", "distance": 3, "instruction": "Walk across the quad toward rooms 396 and 398" }
   ]
 }
