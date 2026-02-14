@@ -101,7 +101,7 @@ def navigate(start_node, room_number):
 
     print(f"\nYou have arrived at Room {room_number}.")
 
-
+call(test_navigation.py)
 # -----------------------------
 # Example Call
 # -----------------------------
