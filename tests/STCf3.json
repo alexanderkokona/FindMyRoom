@@ -1,90 +1,91 @@
 {
   "nodes": [
-    { "id": "ENT_CENT", "label": "Central Staircase", "type": "entrance" },
-    { "id": "ENT_EAST", "label": "East Entrance", "type": "entrance" },
-    { "id": "ENT_WEST", "label": "West Entrance", "type": "entrance" },
+    { "id": "ENT_STC_CENT", "label": "Central Staircase", "type": "entrance" },
+    { "id": "ENT_STC_EAST", "label": "East Entrance", "type": "entrance" },
+    { "id": "ENT_STC_WEST", "label": "West Entrance", "type": "entrance" },
 
 
-    { "id": "W_HALL_1", "label": "Rooms: 320W, 320X, 320V, 320Y, 320U, bathrooms", "type": "node" },
-    { "id": "W_HALL_2", "label": "Rooms: 330A, 330D, 330E, 320R", "type": "node" },
-    { "id": "W_HALL_3", "label": "Rooms: 320T, 320S, 320Q", "type": "node" },
-    { "id": "W_HALL_4", "label": "Rooms: 330F, 320P, 330G", "type": "node" },
-    { "id": "W_HALL_5", "label": "Rooms: 330H, 330J, 320N, 320M", "type": "node" },
-    { "id": "W_HALL_6", "label": "Rooms: 330K, 330M, 330L, 330N, 330Q, 330P", "type": "node" },
-    { "id": "W_HALL_7", "label": "Rooms: 320L, 320K, 320J, 320G", "type": "node" },
-    { "id": "W_HALL_8", "label": "Rooms: 330R, 320F, 320A, 320E, 320C, 320B", "type": "node" },
-
-    
-    { "id": "E_HALL_1", "label": "Rooms: 310A, 310Z, 310X", "type": "node" },
-    { "id": "E_HALL_2", "label": "Rooms: 310B, 310C, 310Y, 310V", "type": "node" },
-    { "id": "E_HALL_3", "label": "Rooms: 3310W, 310U", "type": "node" },
-    { "id": "E_HALL_4", "label": "Rooms: 310T, 310R, 310S", "type": "node" },
-    { "id": "E_HALL_5", "label": "Rooms: 310D, 310E", "type": "node" },
-    { "id": "E_HALL_6", "label": "Rooms: 310F, 310G, 310P", "type": "node" },
-    { "id": "E_HALL_7", "label": "Rooms: 310Q, 310N", "type": "node" },
-    { "id": "E_HALL_8", "label": "Rooms: 310H, 310J, 310K, 310M, 310L", "type": "node" },
+    { "id": "W_STC_HALL_1", "label": "Rooms: 320W, 320X, 320V, 320Y, 320U, bathrooms", "type": "node" },
+    { "id": "W_STC_HALL_2", "label": "Rooms: 330A, 330D, 330E, 320R", "type": "node" },
+    { "id": "W_STC_HALL_3", "label": "Rooms: 320T, 320S, 320Q", "type": "node" },
+    { "id": "W_STC_HALL_4", "label": "Rooms: 330F, 320P, 330G", "type": "node" },
+    { "id": "W_STC_HALL_5", "label": "Rooms: 330H, 330J, 320N, 320M", "type": "node" },
+    { "id": "W_STC_HALL_6", "label": "Rooms: 330K, 330M, 330L, 330N, 330Q, 330P", "type": "node" },
+    { "id": "W_STC_HALL_7", "label": "Rooms: 320L, 320K, 320J, 320G", "type": "node" },
+    { "id": "W_STC_HALL_8", "label": "Rooms: 330R, 320F, 320A, 320E, 320C, 320B", "type": "node" },
 
     
-    { "id": "N_HALL_1", "label": "Rooms: Bathrooms", "type": "node" },
-    { "id": "N_HALL_2", "label": "Rooms: 379, 385, 375", "type": "node" },
-    { "id": "N_HALL_3", "label": "Rooms: 376, 367, 362, 361", "type": "node" },
-    { "id": "N_HALL_4", "label": "Rooms: 356, 353, 357", "type": "node" },
-    { "id": "N_HALL_5", "label": "Rooms: 347, 341", "type": "node" },
-    { "id": "N_HALL_6", "label": "Rooms: 342, Study Area", "type": "node" },
+    { "id": "E_STC_HALL_1", "label": "Rooms: 310A, 310Z, 310X", "type": "node" },
+    { "id": "E_STC_HALL_2", "label": "Rooms: 310B, 310C, 310Y, 310V", "type": "node" },
+    { "id": "E_STC_HALL_3", "label": "Rooms: 3310W, 310U", "type": "node" },
+    { "id": "E_STC_HALL_4", "label": "Rooms: 310T, 310R, 310S", "type": "node" },
+    { "id": "E_STC_HALL_5", "label": "Rooms: 310D, 310E", "type": "node" },
+    { "id": "E_STC_HALL_6", "label": "Rooms: 310F, 310G, 310P", "type": "node" },
+    { "id": "E_STC_HALL_7", "label": "Rooms: 310Q, 310N", "type": "node" },
+    { "id": "E_STC_HALL_8", "label": "Rooms: 310H, 310J, 310K, 310M, 310L", "type": "node" },
+
+    
+    { "id": "N_STC_HALL_1", "label": "Rooms: Bathrooms", "type": "node" },
+    { "id": "N_STC_HALL_2", "label": "Rooms: 379, 385, 375", "type": "node" },
+    { "id": "N_STC_HALL_3", "label": "Rooms: 376, 367, 362, 361", "type": "node" },
+    { "id": "N_STC_HALL_4", "label": "Rooms: 356, 353, 357", "type": "node" },
+    { "id": "N_STC_HALL_5", "label": "Rooms: 347, 341", "type": "node" },
+    { "id": "N_STC_HALL_6", "label": "Rooms: 342, Study Area", "type": "node" },
 
 
-    { "id": "N_QUAD_1", "label": "Study Area", "type": "node" },
-    { "id": "N_QUAD_2", "label": "Rooms: 394, 393, Study Area", "type": "node" },
-    { "id": "N_QUAD_3", "label": "Rooms: 396 and 398", "type": "node"}
+    { "id": "N_STC_STC_QUAD_1", "label": "Study Area", "type": "node" },
+    { "id": "N_STC_QUAD_2", "label": "Rooms: 394, 393, Study Area", "type": "node" },
+    { "id": "N_STC_QUAD_3", "label": "Rooms: 396 and 398", "type": "node"},
+
+    
+    { "id": "E_STC_1", "label": "East Entrance Courtyard", "type": "outside"},
+
+    { "id": "O_Road_1", "label": "South Sage/Center St", "type": "outside"},
+    { "id": "O_Road_2", "label": "North Sage/Center St", "type": "outside"},
+    { "id": "O_Road_3", "label": "South Campus/Center St", "type": "outside"},
+    { "id": "O_Road_4", "label": "North Campus/Center St", "type": "outside"},
+
+    { "id": "S_Rig_1", "label": "South Entrance Courtyard", "type": "outside"},
+
+    { "id": "ENT_Rig_South", "label": "South Staircase", "type": "Entrance"},
+
+    { "id": "S_RIG_Hall_1", "label": "Rooms: 358, 359, 360, 361, 362", "type": "node"},
+    { "id": "S_RIG_Hall_2", "label": "Rooms: 353, 354, 354A, 355, 356, 357, 364", "type": "node"}
+
 
   ],
 
   "edges": [
-    {
-      "from": "N_QUAD_1",
-      "to": "N_HALL_2",
-      "distance": 8,
-      "instruction": "Walk straight until the cortner"
-    },
-    {
-      "from": "N_QUAD_1",
-      "to": "N_QUAD_3",
-      "distance": 4,
-      "instruction": "Walk to get in front of the elevator"
-    },
-    {
-      "from": "N_HALL_2",
-      "to": "N_QUAD_2",
-      "distance": 0,
-      "instruction": ""
-    },
+    { "from": "N_STC_QUAD_1", "to": "N_STC_HALL_2","distance": 8, "instruction": "Walk straight until the cortner"},
+    { "from": "N_STC_QUAD_1", "to": "N_STC_QUAD_3", "distance": 4, "instruction": "Walk to get in front of the elevator"},
+    { "from": "N_STC_HALL_2", "to": "N_STC_QUAD_2", "distance": 0, "instruction": ""},
     
-    { "from": "ENT_WEST", "to": "W_HALL_1", "distance": 5, "instruction": "Enter through West Entrance and walk straight into the hallway" },
-    { "from": "W_HALL_1", "to": "W_HALL_2", "distance": 6, "instruction": "Continue straight down the west hallway" },
-    { "from": "W_HALL_2", "to": "W_HALL_3", "distance": 5, "instruction": "Walk forward past the corner" },
-    { "from": "W_HALL_3", "to": "W_HALL_4", "distance": 5, "instruction": "Continue straight" },
-    { "from": "W_HALL_4", "to": "W_HALL_5", "distance": 6, "instruction": "Walk straight down the corridor" },
-    { "from": "W_HALL_5", "to": "W_HALL_6", "distance": 6, "instruction": "Continue forward" },
-    { "from": "W_HALL_6", "to": "W_HALL_7", "distance": 5, "instruction": "Keep walking straight" },
-    { "from": "W_HALL_7", "to": "W_HALL_8", "distance": 6, "instruction": "Continue to the end of the west hallway" },
+    { "from": "ENT_STC_WEST", "to": "W_STC_HALL_1", "distance": 5, "instruction": "Enter through West Entrance and walk straight into the hallway" },
+    { "from": "W_STC_HALL_1", "to": "W_STC_HALL_2", "distance": 6, "instruction": "Continue straight down the west hallway" },
+    { "from": "W_STC_HALL_2", "to": "W_STC_HALL_3", "distance": 5, "instruction": "Walk forward past the corner" },
+    { "from": "W_STC_HALL_3", "to": "W_STC_HALL_4", "distance": 5, "instruction": "Continue straight" },
+    { "from": "W_STC_HALL_4", "to": "W_STC_HALL_5", "distance": 6, "instruction": "Walk straight down the corridor" },
+    { "from": "W_STC_HALL_5", "to": "W_STC_HALL_6", "distance": 6, "instruction": "Continue forward" },
+    { "from": "W_STC_HALL_6", "to": "W_STC_HALL_7", "distance": 5, "instruction": "Keep walking straight" },
+    { "from": "W_STC_HALL_7", "to": "W_STC_HALL_8", "distance": 6, "instruction": "Continue to the end of the west hallway" },
 
-    { "from": "ENT_EAST", "to": "E_HALL_1", "distance": 5, "instruction": "Enter through East Entrance and walk straight" },
-    { "from": "E_HALL_1", "to": "E_HALL_2", "distance": 5, "instruction": "Continue down the hallway" },
-    { "from": "E_HALL_2", "to": "E_HALL_3", "distance": 6, "instruction": "Walk straight past the rooms" },
-    { "from": "E_HALL_3", "to": "E_HALL_4", "distance": 5, "instruction": "Continue forward" },
-    { "from": "E_HALL_4", "to": "E_HALL_5", "distance": 5, "instruction": "Walk straight down the corridor" },
-    { "from": "E_HALL_5", "to": "E_HALL_6", "distance": 6, "instruction": "Continue straight" },
-    { "from": "E_HALL_6", "to": "E_HALL_7", "distance": 5, "instruction": "Walk forward" },
-    { "from": "E_HALL_7", "to": "E_HALL_8", "distance": 6, "instruction": "Continue to the end of the east hallway" },
+    { "from": "ENT_STC_EAST", "to": "E_STC_HALL_1", "distance": 5, "instruction": "Enter through East Entrance and walk straight" },
+    { "from": "E_STC_HALL_1", "to": "E_STC_HALL_2", "distance": 5, "instruction": "Continue down the hallway" },
+    { "from": "E_STC_HALL_2", "to": "E_STC_HALL_3", "distance": 6, "instruction": "Walk straight past the rooms" },
+    { "from": "E_STC_HALL_3", "to": "E_STC_HALL_4", "distance": 5, "instruction": "Continue forward" },
+    { "from": "E_STC_HALL_4", "to": "E_STC_HALL_5", "distance": 5, "instruction": "Walk straight down the corridor" },
+    { "from": "E_STC_HALL_5", "to": "E_STC_HALL_6", "distance": 6, "instruction": "Continue straight" },
+    { "from": "E_STC_HALL_6", "to": "E_STC_HALL_7", "distance": 5, "instruction": "Walk forward" },
+    { "from": "E_STC_HALL_7", "to": "E_STC_HALL_8", "distance": 6, "instruction": "Continue to the end of the east hallway" },
 
-    { "from": "ENT_CENT", "to": "N_HALL_1", "distance": 4, "instruction": "Exit the central staircase and walk north" },
-    { "from": "N_HALL_1", "to": "N_HALL_2", "distance": 5, "instruction": "Walk straight past the bathrooms" },
-    { "from": "N_HALL_2", "to": "N_HALL_3", "distance": 5, "instruction": "Continue straight" },
-    { "from": "N_HALL_3", "to": "N_HALL_4", "distance": 6, "instruction": "Walk forward down the corridor" },
-    { "from": "N_HALL_4", "to": "N_HALL_5", "distance": 5, "instruction": "Continue straight" },
-    { "from": "N_HALL_5", "to": "N_HALL_6", "distance": 5, "instruction": "Walk to the end of the hallway" },
+    { "from": "ENT_STC_CENT", "to": "N_STC_HALL_1", "distance": 4, "instruction": "Exit the central staircase and walk north" },
+    { "from": "N_STC_HALL_1", "to": "N_STC_HALL_2", "distance": 5, "instruction": "Walk straight past the bathrooms" },
+    { "from": "N_STC_HALL_2", "to": "N_STC_HALL_3", "distance": 5, "instruction": "Continue straight" },
+    { "from": "N_STC_HALL_3", "to": "N_STC_HALL_4", "distance": 6, "instruction": "Walk forward down the corridor" },
+    { "from": "N_STC_HALL_4", "to": "N_STC_HALL_5", "distance": 5, "instruction": "Continue straight" },
+    { "from": "N_STC_HALL_5", "to": "N_STC_HALL_6", "distance": 5, "instruction": "Walk to the end of the hallway" },
   
-    { "from": "N_HALL_6", "to": "N_QUAD_1", "distance": 4, "instruction": "Turn into the North Quad study area" },
-    { "from": "N_QUAD_2", "to": "N_QUAD_3", "distance": 3, "instruction": "Walk across the quad toward rooms 396 and 398" }
+    { "from": "N_STC_HALL_6", "to": "N_STC_QUAD_1", "distance": 4, "instruction": "Turn into the North Quad study area" },
+    { "from": "N_STC_QUAD_2", "to": "N_STC_QUAD_3", "distance": 3, "instruction": "Walk across the quad toward rooms 396 and 398" }
   ]
 }
