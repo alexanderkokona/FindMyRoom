@@ -16,30 +16,32 @@ Windows, macOS, or Linux
 Optional: Angular/React frontend to call the API
 
 📂 Project Structure
-cse310-projects/
+Tests directory:
 │
-├─ Directions.py        # Main FastAPI app + navigation logic
+├─ Directions.py        # Core navigation logic (Dijkstra algorithm)
+├─ api.py               # Main FastAPI app (Includes CORS & Frontend endpoints)
 ├─ STCf3.json           # Map graph JSON
-├─ backend.py           # Optional backend (if used)
-└─ README.md            # This file
+└─ README Indoor Navigation API.txt # This file
+
 ⚡ Running the API
 
-Open PowerShell (or terminal) and navigate to the project folder:
+1. Open your terminal in the root project folder.
 
-cd "C:\CSE 210 Hw\cse310-projects"
+2. Activate your virtual environment (Windows PowerShell):
+   .\.venv\Scripts\Activate.ps1
 
-Make sure Directions.py has FastAPI instance app:
+3. Install the required dependencies:
+   pip install fastapi uvicorn pydantic
+   (Or run: pip install -r requirements.txt)
 
-from fastapi import FastAPI
-app = FastAPI()
+4. Navigate to the folder containing the python scripts:
+   cd tests
 
-Run the API server:
-
-python -m uvicorn Directions:app --reload
+5. Run the API server:
+   python -m uvicorn api:app --reload
 
 --reload restarts the server automatically when code changes.
-
-If you renamed your file, replace Directions with the new filename (without .py).
+Note: We run `api:app` because `api.py` contains the CORS configuration needed for the Angular frontend to connect successfully without being blocked.
 
 Open your browser at:
 
@@ -47,7 +49,7 @@ http://127.0.0.1:8000/docs
 
 This is FastAPI’s interactive API documentation.
 
-You can test your /navigate endpoint here.
+You can test your endpoints directly from there.
 
 🔹 API Endpoint
 POST /navigate
