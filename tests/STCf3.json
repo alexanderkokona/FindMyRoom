@@ -87,5 +87,22 @@
   
     { "from": "N_STC_HALL_6", "to": "N_STC_QUAD_1", "distance": 4, "instruction": "Turn into the North Quad study area" },
     { "from": "N_STC_QUAD_2", "to": "N_STC_QUAD_3", "distance": 3, "instruction": "Walk across the quad toward rooms 396 and 398" }
+    {
+
+    { "from": "N_STC_HALL_5", "to": "ENT_STC_CENT", "distance": 6, "instruction": "Walk south toward the central staircase" },
+
+    { "from": "ENT_STC_CENT", "to": "E_STC_1", "distance": 12, "instruction": "Exit the building toward the east courtyard" },
+
+    { "from": "E_STC_1", "to": "O_Road_4", "distance": 10, "instruction": "Walk north toward North Campus Drive" },
+
+    { "from": "O_Road_4", "to": "O_Road_2", "distance": 18, "instruction": "Follow the sidewalk along Center St heading east" },
+
+    { "from": "O_Road_2", "to": "S_Rig_1", "distance": 20, "instruction": "Continue along Center St toward Rigby Hall courtyard" },
+
+    { "from": "S_Rig_1", "to": "ENT_Rig_South", "distance": 5, "instruction": "Enter through the south staircase entrance" },
+
+    { "from": "ENT_Rig_South", "to": "S_RIG_Hall_1", "distance": 4, "instruction": "Go inside and proceed down the hallway" },
+
+    { "from": "S_RIG_Hall_1", "to": "S_RIG_Hall_2", "distance": 6, "instruction": "Continue straight to reach Rig Hall 2" }
   ]
 }
