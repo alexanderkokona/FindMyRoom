@@ -124,9 +124,35 @@ export class MapPage implements OnInit {
   }
 
   getIcon(direction: string): string {
-    if (direction.includes('right')) return 'turn_right';
-    if (direction.includes('left')) return 'turn_left';
-    if (direction.includes("straight")) return 'straight';
-    return "location_on";
+    const lowerDir = direction.toLowerCase();
+
+    // Specific Places / Actions
+    if (lowerDir.includes('elevator')) return 'elevator';
+    if (lowerDir.includes('stair')) return 'stairs';
+    if (lowerDir.includes('enter') || lowerDir.includes('entrance')) return 'login';
+    if (lowerDir.includes('exit')) return 'logout';
+    if (lowerDir.includes('bathroom') || lowerDir.includes('restroom')) return 'wc';
+
+    // Compass directions
+    if (lowerDir.includes('north')) return 'north';
+    if (lowerDir.includes('south')) return 'south';
+    if (lowerDir.includes('east')) return 'east';
+    if (lowerDir.includes('west')) return 'west';
+
+    // Turns
+    if (lowerDir.includes('right')) return 'turn_right';
+    if (lowerDir.includes('left')) return 'turn_left';
+    if (lowerDir.includes('turn')) return 'shortcut';
+
+    // Straight / Forward movement
+    if (lowerDir.includes('straight') || 
+        lowerDir.includes('forward') || 
+        lowerDir.includes('continue') || 
+        lowerDir.includes('across') ||
+        lowerDir.includes('keep')) {
+      return 'straight';
+    }
+
+    return 'location_on';
   }
 }
